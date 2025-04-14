@@ -132,6 +132,7 @@ namespace potentials
 
 
     	CMatrix1X local_remainder(const CMatrixDX& nodes, const RMatrixD1& pos) const {
+            //please comment this line 
 
             return evaluate_pes_node(nodes)-local_quadratic(nodes, pos);
         }
